@@ -1,0 +1,35 @@
+1.Create a Ripository in github by login github.com
+2.A folder should be created in pc(desktop>>>not sure).
+3.Shift + Right click on mouse inside of the folder.
+***i) git init.
+***ii) git status.
+5.add those folders which you wanna upload in online.
+6.Then commit(it means the locally fixed version will be in the internet too.Actually commit does not affect in the work rather it reveals double ensure & it should be given as you are proffessional.
+7.Finally for be visible in online it should be pushed.
+***iii)git add.
+***iv)git status.
+***v)git commit -m ""
+       note that : A smart message should be included inside of the "" because i am not ni locally right now.inside of the "" I will write actually what have I done.
+***vi)From : or create a new ripository on the command line &
+	     git commit -m ""
+***********you should copy & paste exactly the next line of this.
+***vii)git push -u origin master
+	note : Here -u is optional.
+******optional(email/others)
+
+
+
+
+
+Some More Informations :
+1.Red color : Not added.
+2.Green color : I have added but not commited.
+3.For the case of uploading extra files -> I should add each & every time exactly from there where **git init** remains.
+4.Example : git add chapter1/<space>chaptern(Mainly Folders).....(<space> is not allowed)....or... (git add .)..Here "." is used for revealing all folders.
+5.If the file has been edited(changed) we can see -
+    git status
+    modified : 
+    git add
+    git status
+    git commmit
+    git push orgin master
